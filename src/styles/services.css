@@ -1,0 +1,20 @@
+.services {
+  text-align: center;
+  background-color: #f3f3f3; }
+  .services .titulo-seccion {
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: pink;
+    text-decoration-thickness: 5px; }
+
+.servicio {
+  background-color: white;
+  border-radius: 50%;
+  border-radius: 5px;
+  transition: all ease 0.5s; }
+  .servicio:hover {
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a; }
+  .servicio .icono {
+    width: 60px;
+    height: 60px;
+    background-color: #d3d3d3; }

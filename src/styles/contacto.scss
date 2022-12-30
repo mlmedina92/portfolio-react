@@ -1,0 +1,47 @@
+#contacto {
+	
+	input,
+	textarea {
+		outline: none;
+		width: 100%;
+		background-color: #f3f3f3;
+		border: none;
+		border-bottom: solid 1px rgb(239, 234, 234);
+		padding: 10px 20px;
+		border-radius: 10px;
+		font-size: 14px;
+		transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+		color: black;
+	}
+
+	.btn-enviar {
+		display: block;
+		background-color: grey;
+		margin: auto;
+		cursor: pointer;
+		transition: all ease 0.5s;
+		padding: 10px 15px;
+		font-size: 18px;
+		font-weight: bold;
+		border: none;
+		color: white;
+		width: 30%;
+		letter-spacing: .2rem;
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: pink;
+			border: none;
+
+		}
+
+	}
+
+}
+
+@media (max:767px) {
+	#contacto .btn-enviar {
+		min-width: 100%;
+	}
+
+}

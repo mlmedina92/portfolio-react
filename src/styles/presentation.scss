@@ -1,0 +1,36 @@
+.inicio {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .7)), url('../img/pc.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+    header {
+        background-color: black;
+        color: white;
+    }
+
+    .presentation {
+        color: white;
+        height: 100vh;
+
+        .welcome {
+            letter-spacing: 5px;
+        }
+
+        span {
+            color: pink
+        }
+
+        .link-portfolio {
+            border: 2px solid white;
+            padding: 20px 25px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.5s ease-out;
+
+            &:hover {
+                background-color: pink;
+            }
+        }
+    }
+}

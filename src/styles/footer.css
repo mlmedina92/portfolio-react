@@ -1,0 +1,8 @@
+footer {
+  background-color: black;
+  color: white; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+    footer a:hover {
+      color: pink; }

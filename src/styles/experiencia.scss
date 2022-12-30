@@ -1,0 +1,31 @@
+
+  
+  .proyecto { //cada card
+    position: relative;// es el padre, lo demas es relativo a este
+    overflow: hidden;
+    img {
+      filter: grayscale(1);
+      object-fit: cover;
+      transition: -5s;
+    }
+    &:hover {
+      img {
+        filter: grayscale(0);//cambia la escala de gris 0%
+      }
+      .info {
+        opacity: 1; //en el hover se ve y se pone contra el borde de abajo
+        bottom: 0;
+      }
+    }
+    .info { //contenedor que tiene data de proyectos
+      position: absolute;
+      left: 0; //pegada a la  izq 
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 10px;
+      opacity: 0; //transparente
+      bottom: -40px;
+      transition: 0.5s;
+    }
+  }
+

@@ -1,0 +1,21 @@
+.proyecto {
+  position: relative;
+  overflow: hidden; }
+  .proyecto img {
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: -5s; }
+  .proyecto:hover img {
+    filter: grayscale(0); }
+  .proyecto:hover .info {
+    opacity: 1;
+    bottom: 0; }
+  .proyecto .info {
+    position: absolute;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: 0.5s; }

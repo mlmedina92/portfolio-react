@@ -1,0 +1,23 @@
+.inicio {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../img/pc.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; }
+  .inicio header {
+    background-color: black;
+    color: white; }
+  .inicio .presentation {
+    color: white;
+    height: 100vh; }
+    .inicio .presentation .welcome {
+      letter-spacing: 5px; }
+    .inicio .presentation span {
+      color: pink; }
+    .inicio .presentation .link-portfolio {
+      border: 2px solid white;
+      padding: 20px 25px;
+      text-decoration: none;
+      color: white;
+      transition: all 0.5s ease-out; }
+      .inicio .presentation .link-portfolio:hover {
+        background-color: pink; }

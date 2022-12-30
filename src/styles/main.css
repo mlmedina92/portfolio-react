@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat'; }
+
+html {
+  scroll-behavior: smooth; }
+
+main {
+  margin-top: -80px; }
+
+nav {
+  background-color: black !important; }
+  nav li a {
+    color: white !important; }
+    nav li a:hover {
+      color: pink !important; }
+
+section {
+  height: 100vh; }
+  section > .container-fluid,
+  section > .container-fluid > .container,
+  section > .container-fluid > .container > .row,
+  section > .container,
+  section > .container > .row {
+    height: 100%; }
