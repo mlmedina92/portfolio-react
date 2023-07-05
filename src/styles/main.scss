@@ -1,3 +1,4 @@
+//---------------------------------General Styles---------------------------------------
 * {
     padding: 0;
     margin: 0;
@@ -8,9 +9,10 @@
 html {
     scroll-behavior: smooth;
 }
-main{
-    margin-top: -80px;
-}
+
+
+
+//---------------------------------Navbar Styles---------------------------------------
 nav {
     background-color: rgb(0, 0, 0) !important;
 
@@ -21,17 +23,10 @@ nav {
             color: pink !important;
         }
     }
-}
-
-section {
-    height: 100vh;
-
-    >.container-fluid,
-    >.container-fluid>.container,
-    >.container-fluid>.container>.row,
-    >.container,
-    >.container>.row {
-        height: 100%;
-
+    .navbar-toggler{
+        background-color: pink;
+        color: whitesmoke;
     }
 }
+
+

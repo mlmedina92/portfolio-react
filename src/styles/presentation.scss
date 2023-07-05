@@ -1,5 +1,5 @@
 .inicio {
-    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .7)), url('../img/pc.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7)), url('../img/pc.jpg');
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -33,4 +33,13 @@
             }
         }
     }
+}
+
+//---------------------------------MQ ---------------------------------------
+
+@media only screen and (max-width: 480px) {
+ .inicio {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .7)), url('../img/pc.jpg');
+    background-size: inherit;
+ }
 }

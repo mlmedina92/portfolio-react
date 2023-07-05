@@ -1,4 +1,17 @@
 #contacto {
+	background: linear-gradient(whitesmoke , rgba(33, 16, 16, .8)), url('../img/contact.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	.form-width{
+		max-width: 600px;
+		margin: auto;
+	}
 	
 	input,
 	textarea {

@@ -1,14 +1,15 @@
 .sobre-mi h2 {
   letter-spacing: 2px; }
   .sobre-mi h2 span {
-    color: pink; }
+    color: pink;
+    font-weight: 700; }
 
 .sobre-mi h3 {
   font-weight: 500px;
   letter-spacing: 1px; }
 
 .sobre-mi p {
-  color: grey;
+  color: black;
   font-size: 18px;
   line-height: 25px; }
 

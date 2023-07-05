@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/experiencia.scss';
 import '../styles/main.scss';
 import dw from '../img/dw.jpg';
-import node from '../img/node.jpg';
+import node from '../img/node.png';
 import js from '../img/js.png';
 import react from '../img/react.jpg';
 import wp from '../img/wp.jpg';
@@ -18,17 +18,17 @@ const Experiencia2 = () => {
                     <Certificado
                         img={dw}
                         alt="Desarrollo Web"
-                        tittle="Desarrollo Web. Coder House"
-                        subtitle="Web Tato Medina."
+                        tittle="Coder House"
+                        subtitle="Web Tato y José Medina S.R.L."
                         server="https://www.tatomedina.com.ar/"
                         git="https://github.com/mlmedina92/tato_medina/tree/scss"
                     />
 
                     <Certificado
                         img={js}
-                        alt="Java Script- Vainilla"
-                        tittle="Java Script. Coder House"
-                        subtitle="Web Nimax piletas."
+                        alt="Java Script"
+                        tittle="Coder House"
+                        subtitle="Web Nimax piletas"
                         server="https://www.nimaxpiletas.com.ar/"
                         git="https://github.com/mlmedina92/nimaxDiseno/tree/master"
                     />
@@ -36,40 +36,39 @@ const Experiencia2 = () => {
                     <Certificado
                         img={react}
                         alt="React JS"
-                        tittle="React JS. Coder House"
-                        subtitle="Web Mundo Flotante."
-                        git="https://github.com/mlmedina92/react-ecommerce"
+                        tittle="Coder House"
+                        server=""
+                        git=""
                     />
 
             </div>
 
-            <div className="row gap-3 flex-sm-nowrap">
+            <div className="row gap-3 flex-sm-nowrap mb-5">
                 <Certificado
                     img={node}
                     alt="Node JS"
                     tittle="Programa Codo a Codo: Front-end y Node JS"
-                    server="https://www.tatomedina.com.ar/"
-                    git="https://github.com/mlmedina92/codoAcodo/tree/master"
+                    server=""
+                    git=""
                 />
                 <Certificado
                     img={wp}
                     alt="Wordpress"
-                    tittle="Wordpress. Coder House"
-                    subtitle="Web Zona Smart - Ecommerce con pluggin de Mercado Pago"
-
+                    tittle="Coder House"
+                    subtitle="Web Zona Smart"
                     server="https://zonasmart.com.ar/"
+                    git=""
+
                 />
                 <Certificado
                     img={front}
                     alt="React JS"
                     tittle="Aplicacion de React JS"
                     subtitle="Web Inmobiliaria Gamalero"
-                    server="https://github.com/mlmedina92/inmobiliaria-gamalero" className="text-reset text-decoration-none" target="_blank" rel="noopener noreferrer"
+                    server="https://www.gamaleropropiedades.com/" className="text-reset text-decoration-none" target="_blank" rel="noopener noreferrer"
+                    git="https://github.com/mlmedina92/inmobiliaria-gamalero"
                 />
-
             </div>
-
-
         </>
 
 

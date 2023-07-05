@@ -22,10 +22,7 @@ const NavBar = () => {
         {/* Links menu */}
         <div className="collapse navbar-collapse justify-content-end text-uppercase" id="navbarId" >
           <ul className="navbar-nav ms-auto text-start">
-            <li className="nav-item">
-              <Link className={navLinkClassName} activeclassname={navLinkClassNameActive} to="/" >Inicio</Link>
-            </li>
-
+            
             <li className="nav-item ">
               <Link className={navLinkClassName} activeclassname={navLinkClassNameActive} to="/#sobre-mi">Sobre mi</Link>
             </li>

@@ -21,8 +21,8 @@ const Home = () => {
                 </FullWidhtContainer>
             </section>
 
-            <section className='services' >
-                <FullWidhtContainer title="Mis servicios" id="services" className="section">
+            <section className='services min-vh-100 d-flex flex-column justify-content-center' >
+                <FullWidhtContainer title="Mis servicios" id="services">
                     <ServicesContainer />
                 </FullWidhtContainer>
             </section>
