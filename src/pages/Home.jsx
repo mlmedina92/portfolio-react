@@ -11,27 +11,24 @@ import '../styles/whatsapp.scss';
 const Home = () => {
     return (
         <div>
-            <section className='inicio mb-5'>
+            <section className='inicio'>
                 <Presentation />
             </section>
 
-            <section>
-                <FullWidhtContainer id="sobre-mi" title="Sobre mi">
-                    <SobreMi />
+            <section className='min-vh-100 sobre-mi'>
+                <FullWidhtContainer id="sobre-mi" title="Sobre mi" >
+                    <SobreMi/>
                 </FullWidhtContainer>
             </section>
 
-            <section className='services min-vh-100 d-flex flex-column justify-content-center' >
-                <FullWidhtContainer title="Mis servicios" id="services">
+            <section className='services min-vh-100 d-flex flex-column justify-content-center pt-4 pt-md-0' >
+                <FullWidhtContainer title="Mis servicios" id="services" className='mt-5 mt-md-0'>
                     <ServicesContainer />
                 </FullWidhtContainer>
             </section>
             
             <WhatsApp />
-            {/* <section>
-                <Certification/>
-            </section> */}
-
+           
         </div>
     )
 }

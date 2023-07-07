@@ -10,8 +10,8 @@ const Footer = () => {
 
     return (
         <div className="container-fluid text-center">
-            <div className="row">
-                <p className="text-center fs-6 my-1">© Todos los derechos reservados. Lis Medina. {year}</p>
+            <div className="row mb-0 pb-1">
+                <p className="text-center fs-6">© Todos los derechos reservados. Lis Medina. {year}</p>
             </div>
 
             <div className="row my-1">

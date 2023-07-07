@@ -3,7 +3,7 @@ import Service from './Service'
 
 const ServicesContainer = () => {
     return (
-        <div className="row gap-3 flex-sm-nowrap">
+        <div className="row gap-3 flex-sm-nowrap pt-4">
             <Service
                 icon="code-slash"
                 title="Diseño y creación de Sitios Web de contenido o E-commerce"

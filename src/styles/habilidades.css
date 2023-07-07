@@ -1,15 +1,10 @@
 .contenedor-skills {
-  background: linear-gradient(pink, rgba(33, 16, 16, 0.8)), url("../img/skills.jpg");
+  background: linear-gradient(pink, rgba(84, 81, 81, 0.6)), url("../img/skills.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-.cuadrado {
-  height: 14px;
-  width: 14px;
-  background-color: white; }
+  background-position: center center; }
+  .contenedor-skills .cuadrado {
+    height: 14px;
+    width: 14px;
+    background-color: white; }

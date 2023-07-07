@@ -7,7 +7,7 @@ const Service = ({icon, title, skills, note}) => {
     const iconClassName = "d-inline-block fs-2 bi bi-" + icon;
     return (
 
-        <div className="col-12 col-md-4 servicio p-4">
+        <div className="col-12 col-md-4 servicio">
             <span className="icono d-inline-block rounded-circle pt-2"><i className={iconClassName}></i></span>
             <h4 className="mt-3 fw-bold">{title}</h4>
 

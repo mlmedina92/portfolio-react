@@ -8,7 +8,7 @@ const FullWidhtContainer = (props) => {
             <div className="container">
                 {/* contenedor gral para alinear todo en el eje vertical: */}
                 <div className="row align-items-center align-content-center">
-                    <h3 className="pt-2 text-uppercase fs-2 titulo-seccion mb-5">{props.title}</h3>
+                    <h3 className="text-uppercase fs-2 titulo-seccion">{props.title}</h3>
                     {/* con props.children traigo a todos sus hijos  */}
                     {props.children}
                 </div>

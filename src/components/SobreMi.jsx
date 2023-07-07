@@ -6,11 +6,11 @@ import '../styles/sobremi.scss';
 
 const SobreMi = () => {
     return (
-        <div className="row align-items-center justify-content-center sobre-mi">
-            <div className="col-12 col-md-4 pb-4">
+        <div className="row d-flex flex-row align-items-center justify-content-center sobre-mi pt-3">
+            <div className="col-12 col-md-4">
                 <img src={lis} className="img-fluid rounded" alt="Lis Medina" loading="lazy" />
             </div>
-            <div className="col-12 col-md-8">
+            <div className="col-12 col-md-8 pt-5 pt-md-0">
                 <h2 className="fs-1 fw-bold">Hola soy, <span> Lis Medina</span></h2>
                 <h3 className="text-uppercase fs-5">DESARROLLADORA WEB FULL STACK</h3>
                 <p className="mt-2 mt-ms-0">Recien recibida pero con gran compromiso y pasión por la programación.</p>
@@ -21,12 +21,10 @@ const SobreMi = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-6 col-md-3 my-4 mt-md-0">
-                            <a href="https://www.linkedin.com/in/lis-medina/" target="_blank" rel="noopener noreferrer">LINKELIND</a>
+                            <a href="https://www.linkedin.com/in/lis-medina/" target="_blank" rel="noopener noreferrer">LINKELIN</a>
                         </div>
-                        <div className="col-6 col-md-3 my-4 mt-md-0">
+                        <div className="col-6 col-md-9 my-4 mt-md-0">
                             <a href={cvPdf} target="_blank" rel="noopener noreferrer">CV PDF</a>
-                        </div>
-                        <div className="col-6 col-md-6 my-4 mt-md-0">
                         </div>
                     </div>
                 </div>

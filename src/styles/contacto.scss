@@ -1,18 +1,19 @@
 #contacto {
-	background: linear-gradient(whitesmoke , rgba(33, 16, 16, .8)), url('../img/contact.jpg');
+	background: linear-gradient(whitesmoke, rgba(33, 16, 16, .8)), url('../img/contact.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 	height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-	.form-width{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.form-width {
 		max-width: 600px;
 		margin: auto;
 	}
-	
+
 	input,
 	textarea {
 		outline: none;
@@ -29,7 +30,7 @@
 
 	.btn-enviar {
 		display: block;
-		background-color: grey;
+		background-color: pink;
 		margin: auto;
 		cursor: pointer;
 		transition: all ease 0.5s;
@@ -37,24 +38,14 @@
 		font-size: 18px;
 		font-weight: bold;
 		border: none;
-		color: white;
-		width: 30%;
+		color: black;
+		width: 40%;
 		letter-spacing: .2rem;
 		text-transform: uppercase;
 
 		&:hover {
-			background-color: pink;
+			background-color: grey;
 			border: none;
-
 		}
-
 	}
-
-}
-
-@media (max:767px) {
-	#contacto .btn-enviar {
-		min-width: 100%;
-	}
-
 }
